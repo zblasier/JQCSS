@@ -1,0 +1,16 @@
+
+<h1 class = "centered fancy" >Dashboard</h1>
+<div id="welcome">
+  <h2 id="welcome-message">Welcome to the Inventory System</h2>
+  <p> You have <%= SalesItem.count %> items defined in the system. </p>
+    <div id="some-div">
+    <p>
+        The
+        <a href="#" id="average" class="bold-blue">average</a>
+        price of a sales item is <%=number_to_currency(SalesItem.average(:price)) %>.
+    </p>
+
+      <p id ="some-element">The average is the sum divided by the count.</p>
+    </div>
+
+</div>

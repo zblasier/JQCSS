@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Vagrant Remote">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/vagrant/projects/jquerydemo_lancaster" local="$PROJECT_DIR$" web="/vagrant/projects/jquerydemo_lancaster" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+
